@@ -1,0 +1,14 @@
+{
+  "name": "toronto_waste_lookup",
+  "version": "1.0.0",
+  "description": "A Web app to search for waste items using the Toronto Waste Wizard database, and save frequently used ones.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nwabuokei Ifeanyichukwu",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
+}
