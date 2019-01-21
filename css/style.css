@@ -1,0 +1,104 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+@font-face {
+    font-family: 'Source Sans Pro';
+    src:url(../font/Amble-Regular-webfont.ttf) format('truetype');
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFF;
+}
+h2{
+	font-size: 15px;
+	font-weight: 10;
+
+}
+.wrap {
+	width:80%;
+	margin: 0 auto;
+	transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+}
+.header {
+	background: #FFF;
+}
+.headertop_desc{
+	 padding-top: 30px;
+	background: linear-gradient(90deg, rgba(29,94,143,0.7959558823529411) 0%, rgba(29,94,143,1) 0%, rgba(33,136,106,1) 60%);
+	border-bottom:1px solid #EEE;
+	height: 100px;
+}
+.account_desc h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 35px;
+}
+.agileits_search input[type="search"]{
+  background: #fff;
+  color:#191e21;
+  font-size: 14px;
+  height: 50px;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  position: relative;
+}
+.select img {
+	background-color: #218d66;
+	height: 50px;
+	margin: 8px 0;
+}
+
+.item h2 {
+	padding: 8px;
+
+	
+}
+.item1 {
+	padding: 12px;
+	margin: 0 10px 0px 18px;
+}
+.sub-heading h1 {
+	font-size: 20px;
+	padding-bottom: 8px;
+	padding-top: 40px;
+	color: #218d66;
+}
+
+.item2 {
+	padding-top: 80px;
+}
+.favourite {
+	background-color: #F7FEFA;
+	padding-bottom: 30px;
+}
